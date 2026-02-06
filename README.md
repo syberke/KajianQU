@@ -38,7 +38,7 @@ proyek-kajianku/
 └── requirements.txt      # Dependencies List   
 ```
 ---
-##💻 Cara Instalasi (Lokal)
+## 💻 Cara Instalasi (Lokal)
 * **1. Clone & Persiapan**
 ```
 git clone [https://github.com/username/kajianqu.git](https://github.com/username/kajianqu.git)
@@ -69,23 +69,24 @@ python manage.py runserver
 ```
 * **5. Menjalankan FastAPI (Port 8080)**
 Buka terminal baru, aktifkan venv, lalu jalankan:
-```
+
 ```
 cd fast_api
 uvicorn main:app --port 8080 --reload
 ```
 * **🧪 Testing API**
+
 ```
 Django Admin: http://127.0.0.1:8000/admin (Kelola data & verifikasi)
-
 FastAPI Swagger: http://127.0.0.1:8080/docs (Test AI Tahsin)
 ```
+
 * **👨‍💻 Kontributor**
 Qiageng Berke Jaisyurrohman - Fullstack Developer & AI Specialist
-
 Akram Mujjaman Raton - Fullstack Developer & AI Specialist
 
 © 2026 KajianQu Team. All Rights Reserved.
+
 
 
 
