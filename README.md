@@ -38,19 +38,19 @@ proyek-kajianku/
 └── requirements.txt      # Dependencies List   
 ```
 ---
-***💻 Cara Instalasi (Lokal)
-1. Clone & Persiapan
+##💻 Cara Instalasi (Lokal)
+* **1. Clone & Persiapan
 ```
 git clone [https://github.com/username/kajianqu.git](https://github.com/username/kajianqu.git)
 cd kajianqu
 ```
-2. Setup Virtual Environment
+* **2. Setup Virtual Environment
 ```
 python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 ```
-3. Konfigurasi Database
+* **3. Konfigurasi Database
 Buat file .env di root folder dan isi sesuai dengan kredensial PostgreSQL kamu:
 
 ```
@@ -60,30 +60,31 @@ DB_PASSWORD=password_kamu
 DB_HOST=127.0.0.1
 DB_PORT=5432
 ```
-4. Menjalankan Django (Port 8000)
+* **4. Menjalankan Django (Port 8000)
 ```
 cd Django
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
 ```
-**5. Menjalankan FastAPI (Port 8080)
+* **5. Menjalankan FastAPI (Port 8080)
 *Buka terminal baru, aktifkan venv, lalu jalankan:
 ```
 ```
 cd fast_api
 uvicorn main:app --port 8080 --reload
 ```
-🧪 Testing API
+* **🧪 Testing API
 ```
 Django Admin: http://127.0.0.1:8000/admin (Kelola data & verifikasi)
 
 FastAPI Swagger: http://127.0.0.1:8080/docs (Test AI Tahsin)
 ```
-👨‍💻 Kontributor
+* **👨‍💻 Kontributor
 Qiageng Berke Jaisyurrohman - Fullstack Developer & AI Specialist
 
 Akram Mujjaman Raton - Fullstack Developer & AI Specialist
 
 © 2026 KajianQu Team. All Rights Reserved.
+
 
