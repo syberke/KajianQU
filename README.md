@@ -79,10 +79,14 @@ FastAPI Swagger: http://127.0.0.1:8080/docs (Test AI Tahsin)
 ```
 👨‍💻 Kontributor
 Ahmad Dahlan - Founder
+
 Qiageng Berke Jaisyurrohman - Fullstack Developer & AI Specialist
+
 Akram Mujjaman Raton - Fullstack Developer & AI Specialist
+
 Nur Yusuf Ferdiansyah - UI/UX
 
 © 2026 KajianQu Team. All Rights Reserved.
+
 
 
