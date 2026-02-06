@@ -23,7 +23,7 @@ Proyek ini menggunakan arsitektur **Hybrid Backend** untuk memaksimalkan stabili
 * **Django (Core/Admin):** Menangani User Management, Database Relasional, Autentikasi, dan Dashboard Admin.
 * **FastAPI (AI Engine):** Menangani pemrosesan audio AI yang berat dan *WebSockets* untuk fitur Live.
 * **Database:** PostgreSQL (Relational Database).
-* **AI Model:** `Zaid/wav2vec2-large-xlsr-53-arabic-quran`.
+* **AI Model:** `wav2vec2
 
 ---
 
@@ -38,7 +38,6 @@ proyek-kajianku/
 └── requirements.txt      # Dependencies List   
 ```
 
-Markdown
 # 📖 KajianQu - Platform Ekosistem Islami & AI Tahsin
 
 **KajianQu** adalah platform komprehensif yang menggabungkan manajemen konten islami, pembelajaran kitab, dan teknologi AI untuk koreksi bacaan Al-Qur'an (Tahsin).
@@ -119,4 +118,5 @@ Qiageng Berke Jaisyurrohman - Fullstack Developer & AI Specialist
 Akram Mujjaman Raton - Fullstack Developer & AI Specialist
 
 © 2026 KajianQu Team. All Rights Reserved.
+
 
