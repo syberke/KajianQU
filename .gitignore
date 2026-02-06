@@ -12,8 +12,5 @@ build/
 
 .env
 
-FastAPI
-
-django
 
 venv
