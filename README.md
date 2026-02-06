@@ -36,10 +36,7 @@ proyek-kajianku/
 ├── venv/                 # Virtual Environment (Shared)
 ├── .env                  # Configuration & Secrets
 └── requirements.txt      # Dependencies List   
-
-Ini dia versi lengkapnya yang sudah dioptimasi agar tampilannya cakep di GitHub. Kamu cukup copy-paste seluruh blok kode di bawah ini ke dalam file README.md kamu.
-
-Pastikan kamu membukanya di editor teks (seperti VS Code) dan simpan sebagai README.md.
+```
 
 Markdown
 # 📖 KajianQu - Platform Ekosistem Islami & AI Tahsin
@@ -122,3 +119,4 @@ Qiageng Berke Jaisyurrohman - Fullstack Developer & AI Specialist
 Akram Mujjaman Raton - Fullstack Developer & AI Specialist
 
 © 2026 KajianQu Team. All Rights Reserved.
+
