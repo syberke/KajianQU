@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'drf_spectacular',
 
     'core',
     'asatidz',
@@ -55,14 +56,23 @@ INSTALLED_APPS = [
     'doa',
     'bahtsul',
     'notifications',
+    'django_extensions',
+    'rest_framework.authtoken'
+   
+
 ]
 AUTH_USER_MODEL = 'core.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework_simplejwt.authentication.JWTAuthentication',
+         'rest_framework.authentication.TokenAuthentication',
     ),
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
 }
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
@@ -74,6 +84,11 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'backend.urls'
+SPECTACULAR_SETTINGS = {
+    'TITLE': 'KajianQU API',
+    'DESCRIPTION': 'Backend API KajianQU',
+    'VERSION': '1.0.0',
+}
 
 TEMPLATES = [
     {

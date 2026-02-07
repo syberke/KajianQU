@@ -12,4 +12,5 @@ class AsatidzProfile(models.Model):
     bank_name = models.CharField(max_length=50)
     bank_account = models.CharField(max_length=50)
     bio = models.TextField()
-    photo = models.ImageField(upload_to='asatidz/')
+
+    photo = models.ImageField(upload_to='asatidz/', null=True, blank=True)
