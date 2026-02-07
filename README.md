@@ -1,4 +1,4 @@
-﻿﻿# 📖 KajianQu - Platform Ekosistem Islami & AI Tahsin
+﻿# 📖 KajianQu - Platform Ekosistem Islami & AI Tahsin
 
 **KajianQu** adalah platform komprehensif yang menggabungkan manajemen konten islami, pembelajaran kitab, dan teknologi AI untuk koreksi bacaan Al-Qur'an (Tahsin).
 
@@ -87,5 +87,4 @@ Akram Mujjaman Raton - Fullstack Developer & AI Specialist
 Nur Yusuf Ferdiansyah - UI/UX
 
 © 2026 KajianQu Team. All Rights Reserved.
-
 
