@@ -57,7 +57,8 @@ INSTALLED_APPS = [
     'bahtsul',
     'notifications',
     'django_extensions',
-    'rest_framework.authtoken'
+    'rest_framework.authtoken',
+    'corsheaders',
    
 
 ]
@@ -74,6 +75,7 @@ REST_FRAMEWORK = {
 }
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -163,3 +165,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+
+# Untuk masa development, kita izinkan semua
+CORS_ALLOW_ALL_ORIGINS = True 
+ALLOWED_HOSTS = ['192.168.15.3', 'localhost', '127.0.0.1']
+# Atau jika ingin lebih spesifik (opsional):
+# CORS_ALLOWED_ORIGINS = ["http://localhost:8081"]
