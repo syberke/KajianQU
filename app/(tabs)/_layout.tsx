@@ -27,6 +27,33 @@ export default function TabsLayout() {
   const getTabsForRole = () => {
     const commonTabs = [
       { name: 'index', icon: Home, isCenter: false },
+   { name: 'donasi', icon: User, isCenter: false },
+    ];
+
+    switch (role) {
+      case 'user':
+        return [
+           { name: 'ChatRooms', icon: Trophy, isCenter: false },
+          
+          ...commonTabs];
+      case 'asatidz':
+        return [
+                { name: 'asatidz-dashboard', icon: User, isCenter: false },
+
+      { name: 'quranai', icon: Trophy, isCenter: false },
+      { name: 'bahtsul-masail', icon: User, isCenter: false },
+      { name: 'kilas-balik', icon: User, isCenter: false },
+      { name: 'muamalat', icon: User, isCenter: false },
+      { name: 'kelas-private', icon: User, isCenter: false },
+           { name: 'tanya', icon: User, isCenter: false },
+        { name: 'profile', icon: User, isCenter: false },
+        { name: 'live-l', icon: User, isCenter: false },//akifin livenya pas dihp aja soalnya ga bisa RTC
+        { name: 'kiblat', icon: User, isCenter: false },//akifin livenya pas dihp aja soalnya ga bisa RTC
+          ...commonTabs];
+      case 'admin':
+        return [
+             { name: 'admin-dashboard', icon: User, isCenter: false },
+       
       { name: 'quranai', icon: Trophy, isCenter: false },
       { name: 'bahtsul-masail', icon: User, isCenter: false },
       { name: 'kilas-balik', icon: User, isCenter: false },
@@ -36,21 +63,6 @@ export default function TabsLayout() {
         { name: 'profile', icon: User, isCenter: false },
         { name: 'live-l', icon: User, isCenter: false },//akifin livenya pas dihp aja soalnya ga bisa RTC
         { name: 'kiblat', icon: User, isCenter: false },//akifin livenya pas dihp aja soalnya ga bisa RTC
-    ];
-
-    switch (role) {
-      case 'user':
-        return [
-          
-          
-          ...commonTabs];
-      case 'asatidz':
-        return [
-                { name: 'asatidz-dashboard', icon: User, isCenter: false },
-          ...commonTabs];
-      case 'admin':
-        return [
-             { name: 'admin-dashboard', icon: User, isCenter: false },
           ...commonTabs];
       default:
         return commonTabs;

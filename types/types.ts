@@ -30,10 +30,21 @@ export interface SearchResult {
 }
 
 export interface User {
-  id: number;
+  id: string;
   email: string;
   name: string;
   role: string;
   type:string;
   created_at:string;
+}
+
+export interface muamalat_practices{
+  id:string;
+  created_at: string;
+  student_name:string;
+  student_contact:string;
+  youtube_url:string;
+  status:string;
+  admin_notes:string;
+  user_id:string;
 }
